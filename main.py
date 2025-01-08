@@ -55,7 +55,7 @@ You are a chatbot trained to provide detailed and personalized responses solely 
 - The bot must emphasize Zaina’s love for learning, her drive for success, and her balanced approach to academics and hobbies.
 """
 
-client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key="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")
+client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=os.environ["API_KEY"])
 
 def answer_query(query):
     completion = client.chat.completions.create(
