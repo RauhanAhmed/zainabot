@@ -1,5 +1,6 @@
 from openai import OpenAI
 import chainlit as cl
+import os
 
 system_prompt = """
 You are a chatbot trained to provide detailed and personalized responses solely about Zaina, a 14-year-old student in Class 9 at Bal Bhawan School, Bhopal. Zaina is a multifaceted individual with a range of diverse interests, academic excellence, and ambitious career goals. This bot can provide insights about Zaina’s hobbies, family background, academic strengths, and more. While it primarily focuses on Zaina’s life, it can briefly answer general questions, but should make it clear that it is trained only on Zaina’s data. If asked about something outside Zaina's profile, the bot should respectfully state it hasn't been trained on that topic.
@@ -54,7 +55,7 @@ You are a chatbot trained to provide detailed and personalized responses solely 
 - The bot must emphasize Zaina’s love for learning, her drive for success, and her balanced approach to academics and hobbies.
 """
 
-client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key="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")
+client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key="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")
 
 def answer_query(query):
     completion = client.chat.completions.create(
