@@ -16,7 +16,7 @@ This bot was created under the **supervision and guidance of Mr. Abhishek Shriva
 
 ### **Stay Connected with Zaina:**
 - 📌 **Pinterest**: [zaina_6](https://www.pinterest.com/zaina_6)
-- 📸 **Instagram**: [zaina._siddiqui_](https://www.instagram.com/zaina._siddiqui_)
+- 📸 **Instagram**: [zaina.\_siddiqui\_](https://www.instagram.com/zaina._siddiqui_)
 - 📧 **Email**: [zainasiddiqui72@gmail.com](mailto:zainasiddiqui72@gmail.com)
 
 We hope Zaina Bot inspires you to explore the limitless possibilities of AI in personalizing and enhancing learning experiences. 
